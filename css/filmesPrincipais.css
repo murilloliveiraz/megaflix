@@ -1,0 +1,59 @@
+.filmesPrincipais{
+    height: 700px;
+    background: rgb(178, 58, 242);
+    background: linear-gradient(90deg, rgba(130,58,242,1) 0%, rgba(130,39,196,1) 41%, rgba(96,22,167,1) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    
+}
+
+img , .my-atropos , .my-atropos2 , .my-atropos3,.my-atropos4 , .my-atropos5 , .my-atropos6{
+    width: 400px;
+    height: auto;
+    border-radius: 16px;
+}
+
+.filmes {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.linha1{
+    display: flex;
+    gap: 24px;
+    flex-direction: row;
+}
+
+.linha2{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+
+@media (max-width: 720px) {
+
+    .linha1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .linha2{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+     .filmesPrincipais{
+        height: auto;
+    }
+    /*img , .my-atropos , .my-atropos2 , .my-atropos3,.my-atropos4 , .my-atropos5 , .my-atropos6{
+        width: 350px;
+        height: 200px;
+        border-radius: 16px;
+    } */
+}
